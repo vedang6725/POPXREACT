@@ -1,0 +1,195 @@
+.container {
+  padding: 1.5rem 1.5rem;
+  min-height: 600px;
+  background-color: #f9fafb;
+}
+
+/* Added responsive container padding */
+@media (min-width: 768px) {
+  .container {
+    padding: 2rem 2rem;
+    min-height: 650px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 2.5rem 3rem;
+    min-height: 700px;
+  }
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 1.5rem;
+}
+
+/* Responsive title sizing */
+@media (min-width: 768px) {
+  .title {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+.profileSection {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive profile section spacing */
+@media (min-width: 768px) {
+  .profileSection {
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profileSection {
+    gap: 2rem;
+    margin-bottom: 2.5rem;
+    padding: 2.5rem;
+  }
+}
+
+.profileImageContainer {
+  position: relative;
+}
+
+.profileImage {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Responsive profile image sizing */
+@media (min-width: 768px) {
+  .profileImage {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profileImage {
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+/* renamed and updated styling for camera icon */
+.cameraIndicator {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1rem;
+  height: 1rem;
+  background-color: #7c3aed;
+  border: 2px solid white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive camera indicator sizing */
+@media (min-width: 768px) {
+  .cameraIndicator {
+    width: 1.25rem;
+    height: 1.25rem;
+    border-width: 3px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .cameraIndicator {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-width: 4px;
+  }
+}
+
+.profileInfo {
+  flex: 1;
+}
+
+.profileName {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 0.25rem;
+}
+
+/* Responsive profile name sizing */
+@media (min-width: 768px) {
+  .profileName {
+    font-size: 1.375rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profileName {
+    font-size: 1.625rem;
+    margin-bottom: 0.75rem;
+  }
+}
+
+.profileEmail {
+  font-size: 0.875rem;
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+/* Responsive profile email sizing */
+@media (min-width: 768px) {
+  .profileEmail {
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .profileEmail {
+    font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+.description {
+  color: #6b7280;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  margin-top: 0;
+}
+
+/* Responsive description sizing */
+@media (min-width: 768px) {
+  .description {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .description {
+    font-size: 1.125rem;
+  }
+}
